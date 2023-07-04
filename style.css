@@ -1,0 +1,345 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container
+{
+	width:90%;
+	margin:0 auto;
+}
+.row
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col_1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+.col_2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+.col_3
+{
+	width:25%;
+	padding:0 15px;
+}
+.col_4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+.col_5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+.col_6
+{
+	width:50%;
+	padding:0 15px;
+}
+.col_7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+.col_8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+.col_9
+{
+	width:75%;
+	padding:0 15px;
+}
+.col_10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+.col_11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+.col_12
+{
+	width:100%;
+	padding:0 15px;
+}
+/*... Header Section Starts... */
+#head{
+	background-color:black;
+	padding:15px 0;
+}
+.logo
+{
+	height:30px;
+	background-color:white;
+}
+.navbar
+{
+	height:30px;
+	background-color:white;
+}
+/*... Header Section ends... */
+/*... Banner Section Starts... */
+#banner-sec{
+	background-color:white;
+	padding:15px 0;
+}
+.ban-cont
+{
+	height:200px;
+	background-color:black;
+}
+/*... Banner Section Ends... */
+/*... Swiper Section Starts... */
+#swip-sec{
+	background-color:black;
+	padding:15px 0;
+}
+.swip
+{
+	height:50px;
+	background-color:white;
+}
+/*... Swiper Section Ends... */
+/*... About Section Starts... */
+#about-sec
+{
+	background-color:white;
+	padding:15px 0;
+}
+.about-fst
+{
+	height:150px;
+	background-color:black;
+}
+.about-mid
+{
+	height:150px;
+	background-color:black;
+}
+.about-last
+{
+	height:150px;
+	background-color:black;
+}
+/*... About Section Ends... */
+/*... Counter Section Starts... */	
+#count-sec{
+	background-color:black;
+	padding:15px 0;
+}
+.count
+{
+	height:70px;
+	background-color:white;
+}
+.count-icon
+{
+	height:70px;
+	background-color:white;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+.count-left
+{
+	height:150px;
+	background-color:white;
+}
+.count-ryt-img
+{
+	height:150px;
+	background-color:white;
+}
+/*... Counter Section Ends... */	
+
+/*... Service Section Starts... */	
+#serv-sec
+{
+	background-color:white;
+	padding:15px 0;
+}
+.serv-center
+{
+	height:50px;
+	background-color:black;
+	
+}
+.serv-bot
+{
+	height:100px;
+	background-color:black;
+	margin:10px 20px;
+}
+/*... Service Section Ends... */	
+
+/*... Portfolio Section Starts... */	
+#port-sec
+{
+	background-color:black;
+	padding:15px 0;
+}
+.port-center
+{
+	height:50px;
+	background-color:white;
+	
+}
+.port-bot
+{
+	height:150px;
+	background-color:white;
+	margin:10px 20px;
+}
+/*... Portfolio Section Ends... */	
+
+/*... Testimonials Section Starts... */	
+#test-sec
+{
+	background-color:white;
+	padding:15px 0;
+}
+.test-center
+{
+	height:50px;
+	background-color:black;
+	margin-bottom:10px;
+	
+}
+.test-bot
+{
+	height:150px;
+	background-color:black;
+}
+/*... Testimonials Section Ends... */	
+
+/*... Pricing Section Starts... */	
+#price-sec
+{
+	background-color:black;
+	padding:15px 0;
+}
+.price-center
+{
+	height:50px;
+	background-color:white;
+	margin-bottom:10px;
+	
+}
+.price-bot
+{
+	height:150px;
+	background-color:white;
+}
+/*... Pricing Section Ends... */	
+
+/*... Question Section Starts... */	
+#ques-sec
+{
+	background-color:white;
+	padding:15px 0;
+}
+.ques-center
+{
+	height:30px;
+	background-color:black;
+	margin:10px 50px;
+	
+}
+.ques-bot
+{
+	height:50px;
+	background-color:black;
+	margin:5px 0;
+}
+/*... Question Section Ends... */	
+
+/*... Team Section Starts... */	
+#team-sec
+{
+	background-color:black;
+	padding:15px 0;
+}
+.team-center
+{
+	height:50px;
+	background-color:white;
+	margin-bottom:10px;	
+}
+.team-bot
+{
+	height:150px;
+	background-color:white;
+}
+/*... Team Section Ends... */	
+
+/*... Contact Section Starts... */	
+#contact-sec
+{
+	background-color:white;
+	padding:15px 0;
+}
+.contact-center
+{
+	height:30px;
+	background-color:black;
+	margin:10px 50px;
+	
+}
+.contact-bot-left
+{
+	height:350px;
+	background-color:black;
+	margin:10px;
+	padding:10px 0;
+	display:flex;
+	flex-wrap:wrap;
+}
+.contact-bot-left-addrs
+{
+	height:100px;
+	background-color:white;
+	margin:10px 0;
+}
+.contact-bot-left-mail
+{
+	height:130px;
+	background-color:white;
+	margin:10px 0;
+}
+.contact-bot-left-call
+{
+	height:130px;
+	background-color:white;
+	margin:10px 0;
+}
+	
+.contact-bot-ryt-msg
+{
+	height:350px;
+	background-color:black;
+	margin:10px
+}
+/*... Contact Section Ends... */	
+
+/*... Join Section Starts... */	
+#join-sec
+{
+	background-color:black;
+	padding:25px 0;
+}
+.join-cont
+{
+	height:80px;
+	background-color:white;
+}
+/*... Join Section Ends... */	
